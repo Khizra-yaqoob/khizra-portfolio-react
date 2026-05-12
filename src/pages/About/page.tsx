@@ -51,7 +51,7 @@ function About() {
 
           <div className="about-sidebar">
             <div className="profile-img-box">
-              <img src="/images/profile.png" alt="Khizra Yaqoob" className="profile-img" />
+              <img src="./images/profile.png" alt="Khizra Yaqoob" className="profile-img" />
             </div>
             <div className="card">
               <h3>🎓 Education</h3>
