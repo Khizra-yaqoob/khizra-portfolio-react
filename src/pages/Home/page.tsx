@@ -155,7 +155,11 @@ function Home() {
         </div>
         <div className="card-container project-container">
           <div className="card project-card">
-            <img src="/images/project1.png" alt="Student Management System" className="project-img" />
+           <img 
+  src={`${import.meta.env.BASE_URL}images/project1.png`} 
+  alt="Student Management System" 
+  className="project-img" 
+/>
             <div className="project-card-header">
               <span className="project-icon">🎓</span>
               <a href="https://github.com/khizra-yaqoob" target="_blank" rel="noreferrer" className="project-code">↗ Code</a>
@@ -168,7 +172,11 @@ function Home() {
             </div>
           </div>
           <div className="card project-card">
-            <img src="/images/project2.png" alt="Library Management System" className="project-img" />
+          <img 
+  src={`${import.meta.env.BASE_URL}images/project2.png`} 
+  alt="Library Management System" 
+  className="project-img" 
+/>
             <div className="project-card-header">
               <span className="project-icon">📚</span>
               <a href="https://github.com/khizra-yaqoob" target="_blank" rel="noreferrer" className="project-code">↗ Code</a>
@@ -181,7 +189,11 @@ function Home() {
             </div>
           </div>
           <div className="card project-card">
-            <img src="/images/project3.png" alt="Portfolio Website" className="project-img" />
+            <img 
+  src={`${import.meta.env.BASE_URL}images/project3.png`} 
+  alt="Portfolio Website" 
+  className="project-img" 
+/>
             <div className="project-card-header">
               <span className="project-icon">🌐</span>
               <a href="https://github.com/khizra-yaqoob" target="_blank" rel="noreferrer" className="project-code">↗ Code</a>
