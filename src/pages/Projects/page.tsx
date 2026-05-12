@@ -17,25 +17,25 @@ const allProjects: Project[] = [
   {
     id: 1, title: 'Student Management System',
     desc: 'A desktop application to manage student records, grades, and attendance using Java and MySQL with full CRUD operations.',
-    category: 'java', icon: '🎓', img: './images/project1.png',
+    category: 'java', icon: '🎓', img: '/images/project1.png',
     badges: ['Java', 'MySQL'], link: 'https://github.com/khizra-yaqoob', linkLabel: '↗ Code',
   },
   {
     id: 2, title: 'Library Management System',
     desc: 'Console-based system for managing books, issuing records, returns, and fine calculation using C++ and file handling.',
-    category: 'cpp', icon: '📚', img: './images/project2.png',
+    category: 'cpp', icon: '📚', img: '/images/project2.png',
     badges: ['C++', 'OOP'], link: 'https://github.com/khizra-yaqoob', linkLabel: '↗ Code',
   },
   {
     id: 3, title: 'Portfolio Website',
     desc: 'Responsive personal portfolio website with dark/light theme, skill bars, project filters, and contact form.',
-    category: 'web', icon: '🌐', img: './images/project3.png',
+    category: 'web', icon: '🌐', img: '/images/project3.png',
     badges: ['HTML', 'CSS', 'JS'], link: 'https://github.com/khizra-yaqoob', linkLabel: '↗ Code',
   },
   {
     id: 4, title: 'Shop Inventory Dashboard',
     desc: 'Interactive inventory management dashboard with bar charts, CRUD operations, activity log, and CSV export feature.',
-    category: 'database', icon: '🏪', img: './images/project4.png',
+    category: 'database', icon: '🏪', img: '/images/project4.png',
     badges: ['MySQL', 'JavaScript'], link: '/dashboard', linkLabel: '↗ Open',
   },
   {
